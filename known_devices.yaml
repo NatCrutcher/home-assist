@@ -1,0 +1,120 @@
+
+nathaniels_ipad:
+  hide_if_away: false
+  icon:
+  mac: F4:5C:89:01:6C:FA
+  name: NATHANIELS-IPAD
+  picture:
+  track: false
+
+sony_playstation_4:
+  hide_if_away: false
+  icon:
+  mac: 2C:CC:44:7A:C0:E3
+  name: Sony-Playstation 4
+  picture:
+  track: false
+
+chunk:
+  hide_if_away: false
+  icon:
+  mac: D8:CB:8A:9F:5E:FA
+  name: CHUNK
+  picture:
+  track: false
+
+raspberrypi:
+  hide_if_away: false
+  icon:
+  mac: DC:A6:32:08:2F:91
+  name: RASPBERRYPI
+  picture:
+  track: false
+
+ds214_nas:
+  hide_if_away: false
+  icon:
+  mac: 00:11:32:42:66:44
+  name: DS214-NAS
+  picture:
+  track: false
+
+google_pixel:
+  hide_if_away: false
+  icon:
+  mac: 58:CB:52:15:DA:F8
+  name: Google-Pixel
+  picture:
+  track: true
+
+vivien_iphone6:
+  hide_if_away: false
+  icon:
+  mac: C0:CC:F8:E4:79:ED
+  name: Vivien-iPhone6
+  picture:
+  track: true
+
+croix_phone:
+  hide_if_away: false
+  icon:
+  mac: 60:72:0B:78:FA:66
+  name: Croix-VivoXl
+  picture:
+  track: true
+
+chromecast_audio:
+  hide_if_away: false
+  icon:
+  mac: 54:60:09:E9:D1:EC
+  name: CHROMECAST-AUDIO
+  picture:
+  track: false
+
+philips_hue:
+  hide_if_away: false
+  icon:
+  mac: 00:17:88:73:54:F3
+  name: PHILIPS-HUE
+  picture:
+  track: false
+
+vivi_echo_dot:
+  hide_if_away: false
+  icon:
+  mac: 08:84:9D:90:F5:94
+  name: Vivi Echo Dot
+  picture:
+  track: false
+
+roomba_6945050c00324740:
+  hide_if_away: false
+  icon:
+  mac: 80:A5:89:0A:27:A0
+  name: ROOMBA-6945050C00324740
+  picture:
+  track: false
+
+google_home_mini:
+  hide_if_away: false
+  icon:
+  mac: 20:DF:B9:74:A8:C5
+  name: GOOGLE-HOME-MINI
+  picture:
+  track: false
+
+yamaha_receiver:
+  hide_if_away: false
+  icon:
+  mac: 4C:1B:86:35:34:43
+  name: Yamaha-Receiver
+  picture:
+  track: false
+
+brother_printer:
+  hide_if_away: false
+  icon:
+  mac: 28:3A:4D:2D:6F:CA
+  name: Brother Printer
+  picture:
+  track: false

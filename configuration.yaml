@@ -1,0 +1,58 @@
+## configuration.yaml ##
+homeassistant:
+  latitude: 39.971435
+  longitude: -105.046254
+  elevation: 1605
+  unit_system: imperial
+  time_zone: America/Denver
+  name: "4754 Raven Run"
+  customize:
+    device_tracker.google_pixel:
+      hidden: true
+    device_tracker.vivien_iphone6:
+      hidden: true
+    device_tracker.croix_phone:
+      hidden: true
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+lovelace:
+  mode: yaml   # Use ui-lovelace.yaml to configure the user interface
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+# Configure to track devices on my Orbi router
+device_tracker:
+  - platform: netgear
+    password: !secret orbi_password
+    devices:
+      - 58:CB:52:15:DA:F8   # Nat's Pixel 3
+      - 60:72:0B:78:FA:66   # Croix's phone BLU Vivo Xl
+      - C0:CC:F8:E4:79:ED   # Vivien's iPhone
+
+# Ping Google to test internet
+binary_sensor:
+  - platform: ping
+    host: 8.8.8.8
+    scan_interval: 30
+    count: 1
+    name: "Internet Ping"
+
+media_player:
+  - platform: samsungtv
+    host: 192.168.1.3
+    port: 8001
+    name: "Samsung TV"
+    mac: 70:2A:D5:E9:72:8A
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+
